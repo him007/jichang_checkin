@@ -14,7 +14,7 @@ SCKEY = os.environ.get('SCKEY')
 #check_url = '{}/user/checkin'.format(url)
 
 login_url = '{}/user/index.php'.format(url)
-check_url = '{}/user/checkin'.format(url)
+check_url = '{}/user/_checkin.php'.format(url)
 
 
 header = {
